@@ -1,9 +1,11 @@
 .linea--hr1 {
   margin-top: 3%;
-  border: 3px solid rgb(0, 128, 0);
-  height: 4px;
-  width: 90%;
+  border: none;
+  height: 1px;
+  background-color: #1700e4;
+  width: 100%;
 }
+
 
 .fondo--main {
   background: linear-gradient(to right, rgb(185, 37, 37), rgb(114, 12, 12));
