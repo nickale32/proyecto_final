@@ -1,4 +1,4 @@
-import './App.css';
+import OfMainLenguages from './components/bodyLenguages';
 import miCara from './components/imagenes/perfil.png';
 import OfMain from "./components/body";
 import OfMainAboutMeDes from "./components/bodyAboutMeDes";
@@ -6,8 +6,8 @@ import logo from './components/imagenes/1200px-Los_Angeles_Lakers_logo.svg.webp'
 import OfMainTitles from './components/bodyMyTitles';
 import OfMainWorkExperience from './components/bodyWorkExperience';
 import OfMainHabilities from './components/bodyHabilities';
-import OfMainLenguages from './components/bodyLenguages';
 import OfMainFormulario from './components/bodyFormulario';
+import './App.css';
 
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
           <div className="col-2" />
           <div className="col-5">
             <div className="row">
-              <OfMainAboutMeDes />
+              <OfMainLenguages />
               <br />
               <OfMainTitles />
               <br />
@@ -35,7 +35,8 @@ function App() {
               <br />
               <OfMainHabilities />
               <br />
-              <OfMainLenguages />
+              <OfMainAboutMeDes/>
+              <br/>
             </div>
           </div>
         </div>
