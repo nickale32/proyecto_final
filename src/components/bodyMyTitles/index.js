@@ -7,8 +7,7 @@ function Titles(props){
         <hr className='linea--hr1'/>
         <ul>
           <li><p>{props.degree1}</p></li>
-          <li><p>{props.school1}</p></li>  
-          <li><p>{props.degree2}</p></li>    
+          <li><p>{props.school1}</p></li>    
           <li><p>{props.date}</p></li>   
         </ul>
       </div>
@@ -16,9 +15,9 @@ function Titles(props){
   }
 
 const myTitles ={
+    titles:'Estudios',
     degree1: 'Bachiller academico',
-    degree2: 'Tecnico en instalaciones electricas residenciales',
-    school1: 'Instituto Univercitario De Caldas',
+    school1: 'Instituto Univercitario De Caldas ',
     date: '07-12-2019'
 }
 
@@ -44,7 +43,6 @@ function OfMainTitles(){
             degree1={myTitles.degree1}
             school1={myTitles.school1}
             degree2={myTitles.degree2}
-            school2={myTitles.school2}
             date={myTitles.date}
             />
         </div>
