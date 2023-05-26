@@ -7,7 +7,7 @@ function Formulario(props) {
   };
 
   return (
-    <div className="ultimo--contenedor">
+    <div className="ultimo--contenedor" style={{ textAlign: 'center' }}>
       <div className="row">
         <div className="col-12">
           <form id="contact-form" name="contact-form" onSubmit={handleSubmit}>
@@ -102,5 +102,8 @@ function OfMainFormulario() {
     </div>
   );
 }
+
+
+
 
 export default OfMainFormulario;
